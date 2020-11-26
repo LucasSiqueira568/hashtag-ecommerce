@@ -1,0 +1,169 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+/* Variáveis utilizadas no Projeto */
+
+:root {
+    --primary-bg-color: #FFC107;
+    --secundary-bg-color: #343A40;
+}
+
+html, body {
+    font-family: "Roboto-Black";
+    text-decoration: none;
+    background-color: rgba(214, 206, 206, 0.623);
+}
+
+.cabecalho {
+    display: flex;
+    flex-wrap: 1;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary-bg-color);
+    height: 95px;
+}
+
+.cabecalho h1 {
+    font-size: 40px;
+    margin-left: 250px;
+    color: #fff;
+    font-weight: 900;
+}
+
+.cabecalho .cabecalho-links {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 60px;
+    margin: 0px 10px;
+    font-size: 16px;
+    font-weight: "Roboto-Regular";
+}
+
+.cabecalho .cabecalho-links a {
+    color: var(--secundary-bg-color);
+    margin: 0px 10px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+.cabecalho input {
+    width: 650px;
+    height: 60px;
+    border-radius: 25px;
+    border: none;
+    left: 10px;
+    font-size: 19px;
+    font-family: Arial;
+    font-weight: 500;
+    flex-wrap: 1;
+    outline: none;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+}
+
+#conteudo {
+    width: 600px;
+    height: 600px;
+    margin: 10px 0px;
+}
+
+#conteudo img {
+    width: 700px;
+    height: 600px;
+    margin-top: 30px;
+}
+
+.detalhes {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px;
+    padding: 20px;
+}
+
+.detalhes h1, h2, p, section, button {
+    margin: 10px 0px;
+
+}
+
+.detalhes option {
+    height: 40px;
+}
+
+.detalhes h2{
+    font-size: 35px;
+    font-family: 'Roboto';
+    font-weight: 600;
+}
+
+.detalhes p {
+    font-size: 22px;
+    font-family: 'Roboto-Medium';
+}
+
+.detalhes select {
+    height: 40px;
+    outline: none;
+    font-size: 18px;
+}
+
+.detalhes button {
+    color: #fff;
+    background-color: #11DD4A;
+    font-size: 18px;
+    outline: none;
+    height: 40px;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.comprar {
+    border: 1px solid #000;
+    width: 400px;
+    height: 400px;
+}
+
+.comprar img {
+    width: 400px;
+    height: 400px;
+}
+
+
+.rodape {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 247px;
+    margin-top: 100px;
+    background-color: var(--secundary-bg-color);
+}
+
+.rodape div h3 {
+    color: var(--primary-bg-color);
+    font-size: 25px;
+    font-weight: 800;
+    font-family: 'Roboto';
+    margin-top: 10px;
+}
+
+.rodape div p {
+    color: #fff;
+    font-size: 19px;
+    font-family: 'Roboto';
+    font-weight: 800;
+    margin: 20px 0px;
+
+}

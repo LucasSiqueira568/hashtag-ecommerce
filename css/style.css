@@ -1,0 +1,256 @@
+* {
+    text-decoration: none;
+    list-style: none;
+}
+
+
+:root {
+    --primary-bg-color: #FFC107;
+    --secundary-bg-color: #343A40;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto';
+    text-decoration: none;
+    background-color: rgba(214, 206, 206, 0.623);
+}
+
+.cabecalho {
+    display: flex;
+    flex-wrap: 1;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary-bg-color);
+}
+
+.cabecalho h1 {
+    font-size: 40px;
+    margin-left: 250px;
+    color: #fff;
+    font-weight: 900;
+}
+
+.cabecalho .cabecalho-links {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 60px;
+    margin: 0px 10px;
+    font-size: 16px;
+}
+
+.cabecalho .cabecalho-links a {
+    color: var(--secundary-bg-color);
+    margin: 0px 10px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+.cabecalho input {
+    width: 650px;
+    height: 60px;
+    border-radius: 25px;
+    border: none;
+    left: 10px;
+    font-size: 19px;
+    font-family: Arial;
+    font-weight: 500;
+    flex-wrap: 1;
+    outline: none;
+}
+
+.conteiner-menu {
+    position: relative;
+}
+
+.menu {
+    background-color: var(--secundary-bg-color);
+    display: flex;
+    width: 100%;
+    
+}
+
+.menu nav ul {
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+}
+
+.menu i {
+    font-size: 25px;
+    color: #fff;
+}
+.menu a {
+    color: #ffffff;
+    font-size: 25px;
+
+}
+
+.menu a:hover {
+    color: var(--primary-bg-color);
+}
+
+.category-principal {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 150px;
+    
+}
+
+.card {
+    width: 300px;
+    background: #fff;
+    margin: 0px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+    transition: 0.3s;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6);
+}
+
+.category-principal  .card p {
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Roboto';
+    font-weight: 900;
+}
+
+.category-principal img {
+    width: 289px;
+    height: 289px;
+}
+
+.conteiner-options {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 150px;
+}
+.cred {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: blueviolet;
+    width: 400px;
+    height: 90px;
+    color: #fff;
+}
+
+.cred i {
+    font-size: 30px;
+    margin: 10px 5px;
+}
+
+.cred > p {
+    font-size: 18px;
+    margin: 0px 20px;
+}
+
+.fret {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: deeppink;
+    width: 400px;
+    height: 90px;
+    color: #fff;
+}
+
+.fret i {
+    font-size: 30px;
+    margin: 10px 5px;
+    
+}
+
+.fret > p {
+    font-size: 18px;
+    margin: 0px 20px;
+}
+
+#slider {
+    width: 500px;
+    height: 400px;
+    position: relative;
+}
+
+#slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 800ms;
+}
+
+#slider img.selected {
+    opacity: 1;
+}
+
+.conteiner-plus-pesquisados {
+    margin-top: 150px;
+}
+
+.conteiner-plus-pesquisados > h1 {
+    text-align: center;
+    color: var(--secundary-bg-color);
+    font-weight: 900;
+    margin-bottom: 60px;
+}
+
+.saiba-mais {
+    text-align: center;
+    margin-top: 160px;
+}
+
+.saiba-mais  button {
+    background-color: var(--primary-bg-color);
+    color: var(--secundary-bg-color);
+    font-size: 19px;
+    width: 180px;
+    height: 50px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.1s;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+}
+
+.saiba-mais  button:hover {
+    color: #fff;
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 247px;
+    margin-top: 100px;
+    background-color: var(--secundary-bg-color);
+}
+
+.rodape div h3 {
+    color: var(--primary-bg-color);
+    font-size: 25px;
+    font-weight: 800;
+    font-family: 'Roboto';
+}
+
+.rodape div p {
+    color: #fff;
+    font-size: 19px;
+    font-family: 'Roboto';
+    font-weight: 800;
+}
+
+
+/* Responsividade */
+
+
